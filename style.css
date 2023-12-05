@@ -1,0 +1,262 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: black;
+    color:#fff;
+    overflow:hidden;
+}
+.main{
+    display:flex;
+    height:100vh;
+    padding: 0.5rem;
+}
+.sidebar{
+    background-color:black;
+    width:348px;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+    }
+    
+.main-content{
+    background-color:#121212;
+    flex:1;
+    border-radius: 1rem;
+    overflow:auto;
+  padding: 0 1.5rem 0 1.5rem;
+    }
+
+.music-player{
+background-color: black;
+bottom:0px;
+position :fixed;
+width:100%;
+height:72px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.8rem 0.75rem;
+    height:100px;
+}
+.nav-option{
+    line-height: 2.5rem;
+    font-size: 1rem;
+    opacity:0.6;
+}
+.nav-option:hover{
+    opacity:1;
+}
+.nav-option i{
+    font-size: 1.5rem;
+}
+.nav-option a{
+margin-left: 0.7rem;
+font-weight: 500;
+}
+.library{
+    background: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+   padding: 0.5rem 0.75rem;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lib-option img{
+    height:1.5rem;
+    width:1.5rem;
+    padding-left: 0.5rem;
+}
+.icons{
+    font-size: 1.5rem;
+    display:flex;
+}
+.icons i{
+    opacity: 0.6;
+    margin-right: 0.5rem;
+
+}
+.icons i:hover{
+   opacity:1;
+}
+.lib-option a{
+    padding-left: 0.5rem;
+    font-weight: 500;    
+}
+.box{
+    background-color: #232323;
+    height:8rem;
+     border-radius: 1rem;
+     margin:1rem 0 0.5rem 0;
+     padding: 0.6rem;
+}
+.box-c1{
+    font-weight: 700;
+    margin:1rem;
+}
+.box-c2{
+    font-weight: 500;
+    margin:0.5rem 1rem;
+    opacity: 0.8;
+    justify-content: center;
+}
+.badge{
+background: #fff;
+font-weight: 700;
+border: none;
+border-radius:100px;
+height:2rem;
+margin-top: 0.5rem;
+padding:0.5rem 0.75rem;
+margin-left: 1rem;
+}
+.badge2{
+    background-color: #161515;
+    color:white;
+}
+.sticky-nav{
+    position:sticky;
+    background-color: #121212;
+    top:0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 50;
+    padding: 1rem 0 1rem 0;
+}
+.sticky2-icons{
+align-content: space-between;
+}
+.items{
+    margin-right: 1rem;
+}
+@media (max-width:1000px){
+    .change{
+        display:none;
+      } 
+    }
+  .cards{
+    background-color: #232323;
+    width:150px;
+    padding:1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-img{
+    width:100%;
+  }
+  .title{
+    font-weight: 600;
+  }
+  .info{
+    font-size: 1 rem;
+ opacity:0.8;
+  }
+  .footer{
+    height:300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .line{
+    width: 100%;
+    height:80%;
+    border-top: 1px solid white;
+    opacity:0.4;
+  }
+  .player-left{
+   width:25%;
+  }
+  .player-center{
+    width:50%;
+    justify-content: center;
+    align-items: center;
+  }
+  .player-right{
+   width:25%;
+   } 
+  .player-ctop{
+    height:2rem;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+  }
+  .X{
+    height:1rem;
+    margin-right: 1.5rem;
+    opacity: 0.7;
+  }
+  .X :hover{
+    opacity: 1;
+  }
+  .player-cbottom{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .A{
+    width:70%;
+    appearance: none;
+    height:0.2rem;
+    cursor:pointer;
+  }
+  .A ::-webkit-slider-runnable-track{
+    border-radius: 100%;
+    background-color: #ddd;
+  }
+  .A ::-webkit-slider-thumb{
+    height: 1rem;
+    width: 1rem;
+    margin-top:-7px;
+  }
+  .havana{
+    height:4rem;
+    padding-left: 1rem;
+  }
+  .player-left{
+    justify-content: space-between;
+    display: flex;
+  }
+.written{
+ padding-right:1rem ;
+ align-items: center;
+ justify-content: center;
+}
+.O{
+margin-top:-1rem;
+}
+.new {
+    font-size: 1.5rem; 
+  margin-top: 1rem;
+    margin-right: 1rem;
+    
+  }
+  .fa-solid {
+    font-size: 1.2rem; 
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+  .A1{
+    width:40%;
+  }
+  .player-right{
+    justify-content: space-between;
+  }
